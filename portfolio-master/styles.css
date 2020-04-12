@@ -1,0 +1,193 @@
+body {
+background-repeat: no-repeat, repeat;
+background-color: #cccccc;
+background-size: 40vw 90vh;	
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5;
+    overflow: hidden;
+    background-color: #151515;
+	opacity: 0.8;
+}
+
+li {
+    float: left;
+}
+li h1{
+margin-left : 40px;	
+color : white;
+font-weight:normal;
+}
+
+li a { 
+	margin-top: 13px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #4CAF50;
+    color: green;
+}
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+@media only screen and (max-width:650px)
+{
+  aside ul
+  {
+   padding:0.75em;
+   margin-top: 0;
+   margin: 0;
+  }
+}
+.photo img{
+	max-width:15%;
+        height: auto;
+	padding : 4px 4px;
+        border:2px solid white;
+	margin-top:85px;
+	margin-left:25px;
+}
+.photo h1{
+	font-size:30px;
+	font-family: arial;
+	font-weight:bold;
+	margin-top: -241px;
+	margin-left:310px;
+	overflow-x: hidden;
+        overflow-y: auto;
+        word-break: break-all;
+}
+.photo p{
+	font-size:15px;
+	word-spacing:3px;
+	line-height:20px;
+	font-family: arial;
+	margin-top: -10px;
+	margin-left:310px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        word-break: break-all;
+	}
+
+.contact i{
+  font-size:15px;
+  word-spacing:3px;
+  line-height:20px;
+  font-family: arial;
+  margin-top: -10px;
+  margin-left:310px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  word-break: break-all;
+}
+.v1{
+	border-left: 2px solid grey;
+        height: 380px;
+	opacity: 0.4;
+	margin-left: 840px;
+	margin-top: -357px;
+}
+.social p{
+	font-size:15px;
+	word-spacing:3px;
+	line-height:20px;
+	font-family: arial;
+	margin-top: -388px;
+	margin-left:890px;
+}
+.fa{
+  position: relative;
+  padding: 20px;
+  font-size: 15px;
+  width: 310px;
+  height :45px;
+  text-align: left;
+  margin-top:-550px;
+  border-radius :5px;
+  border:none;
+  margin-left:890px; 
+}
+.fa-github{
+  background: #37B95A;
+  color: white;
+}
+.fa-google{
+   background: #dd4b39;
+  color: white;
+}
+.fa-linkedin{
+  background: #007bb5;
+  color: white;
+}
+.devicon-amazonwebservices-plain-wordmark:hover{
+	color:grey;
+}
+.devicon-python-plain-wordmark:hover{
+color: grey;
+}
+.devicon-android-plain-wordmark:hover{
+color: grey;	
+}
+.devicon-java-plain-wordmark:hover{
+color: grey;	
+}
+.devicon-javascript-plain:hover{
+color: grey;	
+}
+.devicon-mysql-plain-wordmark:hover{
+color:grey;
+}	
+.devicon-cplusplus-plain:hover{
+color:grey;
+}
+.devicon-c-plain:hover{
+color:grey;
+}
+.devicon-css3-plain-wordmark:hover{
+color:grey;
+}
+.devicon-html5-plain-wordmark:hover{
+	color:grey;
+}
+.devicon-php-plain:hover{
+	color:grey;
+}
+.devicon-redis-plain-wordmark:hover{
+	color:grey;
+}
+.devicon-tomcat-line-wordmark:hover{
+	color:grey;
+}
+.devicon-apache-plain-wordmark:hover{
+	color:grey;
+}
+.devicon-typescript-plain:hover{
+color:grey;
+}
+.devicon-linux-plain:hover{
+color:grey;
+}
+.devicon-ubuntu-plain:hover{
+color:grey;
+}
+.devicon-windows8-plain:hover{
+color:grey;
+}
+
+
+
+
+
